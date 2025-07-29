@@ -1,0 +1,131 @@
+{
+  "interface.start-screen.mobile.label-none": {
+    "english": "None",
+    "suggested_translation": "无",
+    "all_existing_translations": [
+      "无",
+      "没有快捷命令"
+    ]
+  },
+  "interface.start-screen.mobile.option-encryption-custom": {
+    "english": "End-to-end encryption",
+    "suggested_translation": "端到端加密",
+    "all_existing_translations": [
+      "端到端加密"
+    ]
+  },
+  "interface.start-screen.mobile.option-encryption-managed": {
+    "english": "Standard encryption",
+    "suggested_translation": "标准加密",
+    "all_existing_translations": [
+      "标准加密"
+    ]
+  },
+  "interface.start-screen.mobile.button-start": {
+    "english": "Start syncing",
+    "suggested_translation": "开始同步",
+    "all_existing_translations": [
+      "开始同步"
+    ]
+  },
+  "interface.start-screen.mobile.option-sign-up": {
+    "english": "Sign up",
+    "suggested_translation": "注册",
+    "all_existing_translations": [
+      "注册"
+    ]
+  },
+  "interface.start-screen.mobile.option-sign-in": {
+    "english": "Sign in",
+    "suggested_translation": "登录",
+    "all_existing_translations": [
+      "登录"
+    ]
+  },
+  "interface.start-screen.mobile.label-vault-name": {
+    "english": "Vault name",
+    "suggested_translation": "仓库名称",
+    "all_existing_translations": [
+      "仓库名称",
+      "远程仓库名称"
+    ]
+  },
+  "interface.start-screen.mobile.label-region-selection": {
+    "english": "Region",
+    "suggested_translation": "区域",
+    "all_existing_translations": [
+      "区域"
+    ]
+  },
+  "dialogue.button-view": {
+    "english": "View",
+    "suggested_translation": "查看",
+    "all_existing_translations": [
+      "查看"
+    ]
+  },
+  "dialogue.button-retry": {
+    "english": "Retry",
+    "suggested_translation": "重试",
+    "all_existing_translations": [
+      "重试"
+    ]
+  },
+  "plugins.bookmarks.option-u-r-l": {
+    "english": "URL",
+    "suggested_translation": "Url",
+    "all_existing_translations": [
+      "Url"
+    ]
+  },
+  "plugins.file-recovery.button-view-history": {
+    "english": "View",
+    "suggested_translation": "查看",
+    "all_existing_translations": [
+      "查看"
+    ]
+  },
+  "plugins.bases.action-add-property": {
+    "english": "Add property",
+    "suggested_translation": "添加笔记属性",
+    "all_existing_translations": [
+      "添加笔记属性"
+    ]
+  },
+  "plugins.bases.label-property-type": {
+    "english": "Property type",
+    "suggested_translation": "属性类型",
+    "all_existing_translations": [
+      "属性类型"
+    ]
+  },
+  "plugins.bases.label-default-view": {
+    "english": "View",
+    "suggested_translation": "查看",
+    "all_existing_translations": [
+      "查看"
+    ]
+  },
+  "plugins.bases.label-view-type-table": {
+    "english": "Table",
+    "suggested_translation": "表格",
+    "all_existing_translations": [
+      "表格"
+    ]
+  },
+  "plugins.bases.label-untitled-property": {
+    "english": "Untitled",
+    "suggested_translation": "未命名",
+    "all_existing_translations": [
+      "未命名"
+    ]
+  },
+  "callout.type.none": {
+    "english": "None",
+    "suggested_translation": "无",
+    "all_existing_translations": [
+      "无",
+      "没有快捷命令"
+    ]
+  }
+}

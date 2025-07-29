@@ -1,0 +1,1129 @@
+{
+  "new_translations": {},
+  "updated_translations": {
+    "setting.file.option-new-attachment-location-default": {
+      "old": "attachments",
+      "new": "附件",
+      "english": "attachments"
+    },
+    "setting.account.label-insider": {
+      "old": "Insider",
+      "new": "内测用户",
+      "english": "Insider"
+    },
+    "setting.account.label-supporter": {
+      "old": "Supporter",
+      "new": "支持者",
+      "english": "Supporter"
+    },
+    "setting.account.option-commercial-license-desc": {
+      "old": "Help keep Obsidian 100% user-supported.",
+      "new": "帮助保持Obsidian 100%由用户支持",
+      "english": "Help keep Obsidian 100% user-supported."
+    },
+    "setting.account.label-name": {
+      "old": "Full name",
+      "new": "全名",
+      "english": "Full name"
+    },
+    "setting.account.message-signup-failed": {
+      "old": "Failed to sign up",
+      "new": "注册失败",
+      "english": "Failed to sign up"
+    },
+    "setting.mobile-toolbar.msg-missing-quick-action": {
+      "old": "Action not configured",
+      "new": "未配置操作",
+      "english": "Action not configured"
+    },
+    "editor.link-suggestion.label-new-footnote": {
+      "old": "New footnote...",
+      "new": "新建脚注...",
+      "english": "New footnote..."
+    },
+    "interface.copy_failed": {
+      "old": "Unable to copy to your clipboard",
+      "new": "无法复制到剪贴板",
+      "english": "Unable to copy to your clipboard"
+    },
+    "interface.msg-indexing-desc": {
+      "old": "Some functionality may not be available until this is complete.",
+      "new": "索引完成前部分功能可能不可用",
+      "english": "Some functionality may not be available until this is complete."
+    },
+    "interface.formatting.insert-footnote": {
+      "old": "Footnote",
+      "new": "脚注",
+      "english": "Footnote"
+    },
+    "interface.release-notes.tab-title": {
+      "old": "Release Notes {{version}}",
+      "new": "版本说明 {{version}}",
+      "english": "Release Notes {{version}}"
+    },
+    "interface.release-notes.msg-missing-release-notes": {
+      "old": "No release notes available for {{version}}.",
+      "new": "{{version}}版本无可用说明",
+      "english": "No release notes available for {{version}}."
+    },
+    "interface.release-notes.msg-failed-to-load": {
+      "old": "Could not load release notes for {{version}}.",
+      "new": "无法加载{{version}}版本的说明",
+      "english": "Could not load release notes for {{version}}."
+    },
+    "interface.start-screen.mobile.label-start-screen": {
+      "old": "Your thoughts are yours.",
+      "new": "您的思想由您掌控",
+      "english": "Your thoughts are yours."
+    },
+    "interface.start-screen.mobile.label-synced": {
+      "old": "synced",
+      "new": "已同步",
+      "english": "synced"
+    },
+    "interface.start-screen.mobile.label-not-synced": {
+      "old": "not synced",
+      "new": "未同步",
+      "english": "not synced"
+    },
+    "interface.start-screen.mobile.label-none": {
+      "old": "None",
+      "new": "无",
+      "english": "None"
+    },
+    "interface.start-screen.mobile.label-recommended": {
+      "old": "Recommended",
+      "new": "推荐",
+      "english": "Recommended"
+    },
+    "interface.start-screen.mobile.label-start-screen-desc": {
+      "old": "Obsidian stores notes on your device, so you can access them quickly and privately, even offline.\nYour data is stored in a secure local folder called a **vault**.",
+      "new": "Obsidian将笔记存储在设备上，因此您可以快速私密地访问，甚至离线使用。\n您的数据存储在称为**仓库**的安全本地文件夹中。",
+      "english": "Obsidian stores notes on your device, so you can access them quickly and privately, even offline.\nYour data is stored in a secure local folder called a **vault**."
+    },
+    "interface.start-screen.mobile.option-create": {
+      "old": "Create a vault",
+      "new": "创建仓库",
+      "english": "Create a vault"
+    },
+    "interface.start-screen.mobile.option-use-existing": {
+      "old": "Use my existing vault",
+      "new": "使用现有仓库",
+      "english": "Use my existing vault"
+    },
+    "interface.start-screen.mobile.label-sync-intro": {
+      "old": "To access your notes on other devices you need to set up sync.",
+      "new": "要在其他设备访问笔记需设置同步",
+      "english": "To access your notes on other devices you need to set up sync."
+    },
+    "interface.start-screen.mobile.label-sync-intro-desc": {
+      "old": "Because Obsidian stores your notes on your devices, you'll need to set up sync if you want to access your notes on another phone or computer.\nYou can set up sync now, or just start writing and set it up later.",
+      "new": "由于Obsidian将笔记存储在设备上，如需在手机或电脑间访问，需设置同步。\n您可以立即设置，或先开始写作稍后再设置。",
+      "english": "Because Obsidian stores your notes on your devices, you'll need to set up sync if you want to access your notes on another phone or computer.\nYou can set up sync now, or just start writing and set it up later."
+    },
+    "interface.start-screen.mobile.option-setup-sync": {
+      "old": "Setup Sync",
+      "new": "设置同步",
+      "english": "Setup Sync"
+    },
+    "interface.start-screen.mobile.option-skip-short": {
+      "old": "Skip",
+      "new": "跳过",
+      "english": "Skip"
+    },
+    "interface.start-screen.mobile.button-create": {
+      "old": "Create vault",
+      "new": "创建仓库",
+      "english": "Create vault"
+    },
+    "interface.start-screen.mobile.label-sync-setup": {
+      "old": "Sync setup",
+      "new": "同步设置",
+      "english": "Sync setup"
+    },
+    "interface.start-screen.mobile.label-sync-setup-desc": {
+      "old": "Create a synced vault on your Obsidian account so that you can access your data from other devices.",
+      "new": "在Obsidian账户创建同步仓库，以便跨设备访问数据",
+      "english": "Create a synced vault on your Obsidian account so that you can access your data from other devices."
+    },
+    "interface.start-screen.mobile.label-remote-vault-create": {
+      "old": "Sync encryption",
+      "new": "同步加密",
+      "english": "Sync encryption"
+    },
+    "interface.start-screen.mobile.option-encryption-custom": {
+      "old": "End-to-end encryption",
+      "new": "端到端加密",
+      "english": "End-to-end encryption"
+    },
+    "interface.start-screen.mobile.option-encryption-custom-desc": {
+      "old": "Offers the strongest security but requires you to safely store your encryption password",
+      "new": "提供最高安全性，但需妥善保管加密密码",
+      "english": "Offers the strongest security but requires you to safely store your encryption password"
+    },
+    "interface.start-screen.mobile.option-encryption-managed": {
+      "old": "Standard encryption",
+      "new": "标准加密",
+      "english": "Standard encryption"
+    },
+    "interface.start-screen.mobile.option-encryption-managed-desc": {
+      "old": "Uses a key managed by Obsidian to protect your data in transit and on our servers.",
+      "new": "使用Obsidian管理的密钥保护传输中和服务器数据",
+      "english": "Uses a key managed by Obsidian to protect your data in transit and on our servers."
+    },
+    "interface.start-screen.mobile.label-sync-settings": {
+      "old": "Sync Settings",
+      "new": "同步设置",
+      "english": "Sync Settings"
+    },
+    "interface.start-screen.mobile.label-sync-settings-desc": {
+      "old": "Do you want to exclude any folders or files when syncing to this device?",
+      "new": "同步到此设备时要排除哪些文件夹或文件？",
+      "english": "Do you want to exclude any folders or files when syncing to this device?"
+    },
+    "interface.start-screen.mobile.button-start": {
+      "old": "Start syncing",
+      "new": "开始同步",
+      "english": "Start syncing"
+    },
+    "interface.start-screen.mobile.label-sign-in-or-sign-up": {
+      "old": "Create an Obsidian account or sign in",
+      "new": "创建Obsidian账户或登录",
+      "english": "Create an Obsidian account or sign in"
+    },
+    "interface.start-screen.mobile.option-sign-up": {
+      "old": "Sign up",
+      "new": "注册",
+      "english": "Sign up"
+    },
+    "interface.start-screen.mobile.option-sign-in": {
+      "old": "Sign in",
+      "new": "登录",
+      "english": "Sign in"
+    },
+    "interface.start-screen.mobile.button-resend-email": {
+      "old": "Re-send email",
+      "new": "重新发送邮件",
+      "english": "Re-send email"
+    },
+    "interface.start-screen.mobile.label-remote-vault-options": {
+      "old": "You have existing Sync vaults",
+      "new": "您有现有同步仓库",
+      "english": "You have existing Sync vaults"
+    },
+    "interface.start-screen.mobile.label-remote-vault-options-desc": {
+      "old": "Do you want to create a new vault or connect to an existing synced vault?",
+      "new": "要创建新仓库还是连接现有同步仓库？",
+      "english": "Do you want to create a new vault or connect to an existing synced vault?"
+    },
+    "interface.start-screen.mobile.option-remote-create": {
+      "old": "Create new Sync vault",
+      "new": "新建同步仓库",
+      "english": "Create new Sync vault"
+    },
+    "interface.start-screen.mobile.option-remote-choose": {
+      "old": "Choose an existing vault",
+      "new": "选择现有仓库",
+      "english": "Choose an existing vault"
+    },
+    "interface.start-screen.mobile.button-forgot-password": {
+      "old": "Forgot password",
+      "new": "忘记密码",
+      "english": "Forgot password"
+    },
+    "interface.start-screen.mobile.label-vault-name": {
+      "old": "Vault name",
+      "new": "仓库名称",
+      "english": "Vault name"
+    },
+    "interface.start-screen.mobile.label-vault-location": {
+      "old": "Vault location",
+      "new": "仓库位置",
+      "english": "Vault location"
+    },
+    "interface.start-screen.mobile.label-vault-location-desc": {
+      "old": "Your new vault will be placed in {{vaultLocation}}",
+      "new": "新仓库将保存在{{vaultLocation}}",
+      "english": "Your new vault will be placed in {{vaultLocation}}"
+    },
+    "interface.start-screen.mobile.label-region-selection": {
+      "old": "Region",
+      "new": "地区",
+      "english": "Region"
+    },
+    "interface.start-screen.mobile.label-region-selection-help": {
+      "old": "Choose a server region near you to make syncing faster.",
+      "new": "选择附近服务器地区可加速同步",
+      "english": "Choose a server region near you to make syncing faster."
+    },
+    "interface.start-screen.mobile.label-encryption-key": {
+      "old": "Encryption key",
+      "new": "加密密钥",
+      "english": "Encryption key"
+    },
+    "interface.start-screen.mobile.label-encryption-key-help": {
+      "old": "This password cannot be changed later. If you forget your password, any remote data on Sync servers will be inaccessible forever.",
+      "new": "此密码后续不可更改。如遗忘密码，同步服务器上的远程数据将永久无法访问",
+      "english": "This password cannot be changed later. If you forget your password, any remote data on Sync servers will be inaccessible forever."
+    },
+    "interface.start-screen.mobile.placeholder-vault-name": {
+      "old": "My vault",
+      "new": "我的仓库",
+      "english": "My vault"
+    },
+    "interface.start-screen.mobile.opt-region-selection-automatic": {
+      "old": "Automatic",
+      "new": "自动",
+      "english": "Automatic"
+    },
+    "interface.start-screen.mobile.label-remote-vault-selection": {
+      "old": "Choose a vault",
+      "new": "选择仓库",
+      "english": "Choose a vault"
+    },
+    "interface.start-screen.mobile.label-remote-vault-selection-desc": {
+      "old": "Your account **{{email}}** has existing vaults you can connect to.",
+      "new": "账户**{{email}}**有可连接的现有仓库",
+      "english": "Your account **{{email}}** has existing vaults you can connect to."
+    },
+    "interface.start-screen.mobile.label-sign-in": {
+      "old": "Sign in to your Obsidian account",
+      "new": "登录Obsidian账户",
+      "english": "Sign in to your Obsidian account"
+    },
+    "interface.start-screen.mobile.label-forgot-password": {
+      "old": "Forgot password",
+      "new": "忘记密码",
+      "english": "Forgot password"
+    },
+    "interface.start-screen.mobile.button-reset-password": {
+      "old": "Reset password",
+      "new": "重置密码",
+      "english": "Reset password"
+    },
+    "interface.start-screen.mobile.msg-password-reset": {
+      "old": "We have sent an email to {{email}} to reset your password.",
+      "new": "我们已发送密码重置邮件至{{email}}",
+      "english": "We have sent an email to {{email}} to reset your password."
+    },
+    "interface.start-screen.mobile.label-sync-method-selection": {
+      "old": "Choose how to sync your notes",
+      "new": "选择笔记同步方式",
+      "english": "Choose how to sync your notes"
+    },
+    "interface.start-screen.mobile.label-sync-method-selection-desc": {
+      "old": "To use Obsidian on your devices you will need to sync your data.",
+      "new": "需同步数据才能在设备间使用Obsidian",
+      "english": "To use Obsidian on your devices you will need to sync your data."
+    },
+    "interface.start-screen.mobile.label-sync-pro1": {
+      "old": "Seamless across every device and OS.",
+      "new": "全设备全平台无缝同步",
+      "english": "Seamless across every device and OS."
+    },
+    "interface.start-screen.mobile.label-sync-pro2": {
+      "old": "Secured with the strongest end-to-end encryption standard.",
+      "new": "采用最强端到端加密标准",
+      "english": "Secured with the strongest end-to-end encryption standard."
+    },
+    "interface.start-screen.mobile.label-sync-pro3": {
+      "old": "Requires an Obsidian account.",
+      "new": "需要Obsidian账户",
+      "english": "Requires an Obsidian account."
+    },
+    "interface.start-screen.mobile.label-icloud-con1": {
+      "old": "Only for iOS and macOS.",
+      "new": "仅限iOS和macOS",
+      "english": "Only for iOS and macOS."
+    },
+    "interface.start-screen.mobile.label-icloud-con2": {
+      "old": "Not encrypted by default.",
+      "new": "默认不加密",
+      "english": "Not encrypted by default."
+    },
+    "interface.start-screen.mobile.label-third-party-desc1": {
+      "old": "Requires third-party plugins or tools.",
+      "new": "需第三方插件或工具",
+      "english": "Requires third-party plugins or tools."
+    },
+    "interface.start-screen.mobile.label-third-party-desc2": {
+      "old": "May not be encrypted by default.",
+      "new": "可能默认不加密",
+      "english": "May not be encrypted by default."
+    },
+    "interface.start-screen.mobile.opt-use-obsidian-sync": {
+      "old": "Use Obsidian Sync",
+      "new": "使用Obsidian同步",
+      "english": "Use Obsidian Sync"
+    },
+    "interface.start-screen.mobile.opt-use-icloud": {
+      "old": "Use iCloud",
+      "new": "使用iCloud",
+      "english": "Use iCloud"
+    },
+    "interface.start-screen.mobile.opt-learn-other-sync": {
+      "old": "Other sync methods",
+      "new": "其他同步方式",
+      "english": "Other sync methods"
+    },
+    "interface.start-screen.mobile.opt-use-supported": {
+      "old": "Use supported sync methods",
+      "new": "使用官方支持的同步方式",
+      "english": "Use supported sync methods"
+    },
+    "interface.start-screen.mobile.label-sync-restore": {
+      "old": "Where is your vault located?",
+      "new": "您的仓库位于何处？",
+      "english": "Where is your vault located?"
+    },
+    "interface.start-screen.mobile.label-obsidian-sync": {
+      "old": "Obsidian Sync",
+      "new": "Obsidian同步",
+      "english": "Obsidian Sync"
+    },
+    "interface.start-screen.mobile.label-other": {
+      "old": "Other",
+      "new": "其他",
+      "english": "Other"
+    },
+    "interface.start-screen.mobile.label-other-sync": {
+      "old": "Third-party sync",
+      "new": "第三方同步",
+      "english": "Third-party sync"
+    },
+    "interface.start-screen.mobile.label-local-folder": {
+      "old": "On this device",
+      "new": "本设备",
+      "english": "On this device"
+    },
+    "interface.start-screen.mobile.option-connect-icloud": {
+      "old": "Connect to iCloud",
+      "new": "连接iCloud",
+      "english": "Connect to iCloud"
+    },
+    "interface.start-screen.mobile.option-connect-other": {
+      "old": "Connect to other sync service",
+      "new": "连接其他同步服务",
+      "english": "Connect to other sync service"
+    },
+    "interface.start-screen.mobile.option-connect-sync": {
+      "old": "Connect to Obsidian Sync",
+      "new": "连接Obsidian同步",
+      "english": "Connect to Obsidian Sync"
+    },
+    "interface.start-screen.mobile.option-connect-local-folder": {
+      "old": "Choose folder",
+      "new": "选择文件夹",
+      "english": "Choose folder"
+    },
+    "interface.start-screen.mobile.label-sync-other": {
+      "old": "Other syncing methods",
+      "new": "其他同步方式",
+      "english": "Other syncing methods"
+    },
+    "interface.start-screen.mobile.label-sync-other-desc": {
+      "old": "Obsidian officially supports two syncing methods: **Obsidian Sync** and **iCloud**.\nHowever, because Obsidian gives you control over your data there are other sync options you can use.\nThese options include third-party plugins and other tools which may require more advanced set up.\nTo use an alternate syncing method, **create a vault** and follow the instructions provided by the plugin or third-party sync provider.",
+      "new": "Obsidian官方支持两种同步方式：**Obsidian同步**和**iCloud**。\n但由于您完全掌控数据，也可使用其他同步选项。\n包括需要高级设置的第三方插件和工具。\n如需使用替代方式，请**创建仓库**并按插件或第三方提供商的说明操作",
+      "english": "Obsidian officially supports two syncing methods: **Obsidian Sync** and **iCloud**.\nHowever, because Obsidian gives you control over your data there are other sync options you can use.\nThese options include third-party plugins and other tools which may require more advanced set up.\nTo use an alternate syncing method, **create a vault** and follow the instructions provided by the plugin or third-party sync provider."
+    },
+    "interface.start-screen.mobile.label-email-entry": {
+      "old": "Enter your email",
+      "new": "输入邮箱",
+      "english": "Enter your email"
+    },
+    "interface.start-screen.mobile.label-email-entry-desc": {
+      "old": "Your email is required to create an Obsidian account.",
+      "new": "创建Obsidian账户需提供邮箱",
+      "english": "Your email is required to create an Obsidian account."
+    },
+    "interface.start-screen.mobile.label-signup": {
+      "old": "Enter your name and password",
+      "new": "输入姓名和密码",
+      "english": "Enter your name and password"
+    },
+    "interface.start-screen.mobile.email-verification": {
+      "old": "Connect to Obsidian Sync",
+      "new": "连接Obsidian同步",
+      "english": "Connect to Obsidian Sync"
+    },
+    "interface.start-screen.mobile.email-verification-desc": {
+      "old": "You should receive an email shortly to **{{email}}** with instructions to connect to Obsidian Sync.",
+      "new": "您将很快收到发送至**{{email}}**的连接说明邮件",
+      "english": "You should receive an email shortly to **{{email}}** with instructions to connect to Obsidian Sync."
+    },
+    "interface.start-screen.mobile.icloud-missing-desc": {
+      "old": "Your iCloud vault was not detected. This could be due to any of the following reasons:",
+      "new": "未检测到iCloud仓库，可能原因如下：",
+      "english": "Your iCloud vault was not detected. This could be due to any of the following reasons:"
+    },
+    "interface.start-screen.mobile.icloud-missing-reason1": {
+      "old": "Your vault is on a different iCloud account than the one you are currently signed into on this device.",
+      "new": "仓库位于设备当前登录的其他iCloud账户",
+      "english": "Your vault is on a different iCloud account than the one you are currently signed into on this device."
+    },
+    "interface.start-screen.mobile.icloud-missing-reason2": {
+      "old": "Your vault is not stored on the top-level Obsidian folder of your iCloud Drive.",
+      "new": "仓库未存储在iCloud Drive顶层Obsidian文件夹",
+      "english": "Your vault is not stored on the top-level Obsidian folder of your iCloud Drive."
+    },
+    "interface.start-screen.mobile.i-cloud-unsupported": {
+      "old": "iCloud not supported",
+      "new": "不支持iCloud",
+      "english": "iCloud not supported"
+    },
+    "interface.start-screen.mobile.i-cloud-unsupported-desc": {
+      "old": "iCloud syncing is only available on Apple devices. If your vault is currently syncing via iCloud, learn how to migrate your vault to a different sync service.",
+      "new": "iCloud同步仅限Apple设备。如当前使用iCloud同步，请了解如何迁移至其他同步服务",
+      "english": "iCloud syncing is only available on Apple devices. If your vault is currently syncing via iCloud, learn how to migrate your vault to a different sync service."
+    },
+    "interface.start-screen.mobile.allow-file-access": {
+      "old": "Allow file access",
+      "new": "允许文件访问",
+      "english": "Allow file access"
+    },
+    "interface.start-screen.mobile.msg-login-pending": {
+      "old": "Logging you in...",
+      "new": "登录中...",
+      "english": "Logging you in..."
+    },
+    "interface.start-screen.mobile.msg-name-required": {
+      "old": "Vault name is required",
+      "new": "需填写仓库名称",
+      "english": "Vault name is required"
+    },
+    "interface.start-screen.mobile.msg-new-email-success": {
+      "old": "New confirmation email sent.",
+      "new": "已重新发送确认邮件",
+      "english": "New confirmation email sent."
+    },
+    "interface.start-screen.mobile.msg-new-email-failure": {
+      "old": "Failed to resend email.",
+      "new": "重新发送邮件失败",
+      "english": "Failed to resend email."
+    },
+    "interface.start-screen.mobile.msg-invalid-vault": {
+      "old": "Vault location must be a folder.",
+      "new": "仓库位置必须是文件夹",
+      "english": "Vault location must be a folder."
+    },
+    "interface.mobile.feedback.label-feedback": {
+      "old": "Feedback",
+      "new": "反馈",
+      "english": "Feedback"
+    },
+    "interface.mobile.feedback.label-feedback-desc": {
+      "old": "Are you enjoying Obsidian? Help us by giving it a rating.",
+      "new": "喜欢Obsidian吗？请给我们评分",
+      "english": "Are you enjoying Obsidian? Help us by giving it a rating."
+    },
+    "interface.mobile.feedback.action-rate": {
+      "old": "Rate the app",
+      "new": "评分",
+      "english": "Rate the app"
+    },
+    "interface.mobile.feedback.action-dismiss": {
+      "old": "Dismiss",
+      "new": "忽略",
+      "english": "Dismiss"
+    },
+    "commands.insert-footnote": {
+      "old": "Insert footnote",
+      "new": "插入脚注",
+      "english": "Insert footnote"
+    },
+    "dialogue.button-view": {
+      "old": "View",
+      "new": "查看",
+      "english": "View"
+    },
+    "dialogue.button-retry": {
+      "old": "Retry",
+      "new": "重试",
+      "english": "Retry"
+    },
+    "menu-items.insert-footnote": {
+      "old": "Footnote",
+      "new": "脚注",
+      "english": "Footnote"
+    },
+    "plugins.file-explorer.action-auto-reveal": {
+      "old": "Auto-reveal current file",
+      "new": "自动显示当前文件",
+      "english": "Auto-reveal current file"
+    },
+    "plugins.file-explorer.tooltip-folders-files-count": {
+      "old": "{{fileCount}}, {{folderCount}}",
+      "new": "{{fileCount}}文件, {{folderCount}}文件夹",
+      "english": "{{fileCount}}, {{folderCount}}"
+    },
+    "plugins.footnotes-pane.name": {
+      "old": "Footnotes view",
+      "new": "脚注视图",
+      "english": "Footnotes view"
+    },
+    "plugins.footnotes-pane.short-name": {
+      "old": "Footnotes",
+      "new": "脚注",
+      "english": "Footnotes"
+    },
+    "plugins.footnotes-pane.desc": {
+      "old": "Show a list of footnotes from the current note.",
+      "new": "显示当前笔记的脚注列表",
+      "english": "Show a list of footnotes from the current note."
+    },
+    "plugins.footnotes-pane.action-show": {
+      "old": "Show footnotes",
+      "new": "显示脚注",
+      "english": "Show footnotes"
+    },
+    "plugins.footnotes-pane.label-no-footnotes": {
+      "old": "No footnotes found.",
+      "new": "未找到脚注",
+      "english": "No footnotes found."
+    },
+    "plugins.page-preview.label-source-tab-header": {
+      "old": "Tab header",
+      "new": "标签页标题",
+      "english": "Tab header"
+    },
+    "plugins.bookmarks.option-u-r-l": {
+      "old": "URL",
+      "new": "网址",
+      "english": "URL"
+    },
+    "plugins.unique-note-creator.action-add-link": {
+      "old": "Add unique internal link",
+      "new": "添加唯一内部链接",
+      "english": "Add unique internal link"
+    },
+    "plugins.outline.label-follow-cursor": {
+      "old": "Auto-scroll to current section",
+      "new": "自动滚动至当前章节",
+      "english": "Auto-scroll to current section"
+    },
+    "plugins.publish.option-custom-url-placeholder": {
+      "old": "www.yourdomain.com",
+      "new": "www.您的域名.com",
+      "english": "www.yourdomain.com"
+    },
+    "plugins.publish.label-open-in-live-site": {
+      "old": "Open in live site",
+      "new": "在正式站点打开",
+      "english": "Open in live site"
+    },
+    "plugins.sync.action-setup-sync": {
+      "old": "Set up Sync",
+      "new": "设置同步",
+      "english": "Set up Sync"
+    },
+    "plugins.sync.label-file-renamed-from-to": {
+      "old": "Renamed from “{{from}}” to “{{to}}”",
+      "new": "从“{{from}}”重命名为“{{to}}”",
+      "english": "Renamed from “{{from}}” to “{{to}}”"
+    },
+    "plugins.sync.label-file-moved-from": {
+      "old": "Moved from “{{from}}”",
+      "new": "从“{{from}}”移动",
+      "english": "Moved from “{{from}}”"
+    },
+    "plugins.sync.label-file-moved-from-to": {
+      "old": "Moved from “{{from}}” to “{{to}}”",
+      "new": "从“{{from}}”移动至“{{to}}”",
+      "english": "Moved from “{{from}}” to “{{to}}”"
+    },
+    "plugins.sync.opt-vault-region-automatic": {
+      "old": "Automatic",
+      "new": "自动",
+      "english": "Automatic"
+    },
+    "plugins.sync.option-event-type-skipped": {
+      "old": "Skipped",
+      "new": "已跳过",
+      "english": "Skipped"
+    },
+    "plugins.sync.button-restore-files_zero": {
+      "old": "Restore files",
+      "new": "恢复文件",
+      "english": "Restore files"
+    },
+    "plugins.sync.button-restore-files": {
+      "old": "Restore {{count}} file",
+      "new": "恢复{{count}}个文件",
+      "english": "Restore {{count}} file"
+    },
+    "plugins.sync.button-restore-files_plural": {
+      "old": "Restore {{count}} files",
+      "new": "恢复{{count}}个文件",
+      "english": "Restore {{count}} files"
+    },
+    "plugins.sync.label-sync-loading": {
+      "old": "Sync is still loading, please refresh this page later.",
+      "new": "同步仍在加载，请稍后刷新",
+      "english": "Sync is still loading, please refresh this page later."
+    },
+    "plugins.sync.label-connecting-to-vault": {
+      "old": "Connecting...",
+      "new": "连接中...",
+      "english": "Connecting..."
+    },
+    "plugins.sync.label-connection-failed": {
+      "old": "Connection failed",
+      "new": "连接失败",
+      "english": "Connection failed"
+    },
+    "plugins.sync.label-connection-failed-desc": {
+      "old": "Failed to connect to remote vault.",
+      "new": "无法连接远程仓库",
+      "english": "Failed to connect to remote vault."
+    },
+    "plugins.file-recovery.button-view-history": {
+      "old": "View",
+      "new": "查看",
+      "english": "View"
+    },
+    "plugins.canvas.label-no-media": {
+      "old": "No media found.",
+      "new": "未找到媒体文件",
+      "english": "No media found."
+    },
+    "plugins.bases.name": {
+      "old": "Bases",
+      "new": "数据基",
+      "english": "Bases"
+    },
+    "plugins.bases.desc": {
+      "old": "Create bases by querying note properties.",
+      "new": "通过查询笔记属性创建数据基",
+      "english": "Create bases by querying note properties."
+    },
+    "plugins.bases.action-new-base": {
+      "old": "New base",
+      "new": "新建数据基",
+      "english": "New base"
+    },
+    "plugins.bases.action-add-property": {
+      "old": "Add property",
+      "new": "添加属性",
+      "english": "Add property"
+    },
+    "plugins.bases.action-hide-all": {
+      "old": "Hide all",
+      "new": "全部隐藏",
+      "english": "Hide all"
+    },
+    "plugins.bases.action-toggle-visibility": {
+      "old": "Toggle visibility",
+      "new": "切换可见性",
+      "english": "Toggle visibility"
+    },
+    "plugins.bases.action-delete-property": {
+      "old": "Delete property",
+      "new": "删除属性",
+      "english": "Delete property"
+    },
+    "plugins.bases.action-configure-view": {
+      "old": "Configure view",
+      "new": "配置视图",
+      "english": "Configure view"
+    },
+    "plugins.bases.action-duplicate-view": {
+      "old": "Duplicate view",
+      "new": "复制视图",
+      "english": "Duplicate view"
+    },
+    "plugins.bases.action-delete-view": {
+      "old": "Delete view",
+      "new": "删除视图",
+      "english": "Delete view"
+    },
+    "plugins.bases.command-create-new": {
+      "old": "Create new base",
+      "new": "创建新数据基",
+      "english": "Create new base"
+    },
+    "plugins.bases.command-insert-new": {
+      "old": "Insert new base",
+      "new": "插入新数据基",
+      "english": "Insert new base"
+    },
+    "plugins.bases.command-copy-table": {
+      "old": "Copy table to clipboard",
+      "new": "复制表格到剪贴板",
+      "english": "Copy table to clipboard"
+    },
+    "plugins.bases.command-change-view": {
+      "old": "Change view",
+      "new": "更改视图",
+      "english": "Change view"
+    },
+    "plugins.bases.label-computed-properties": {
+      "old": "Computed properties",
+      "new": "计算属性",
+      "english": "Computed properties"
+    },
+    "plugins.bases.label-property-type": {
+      "old": "Property type",
+      "new": "属性类型",
+      "english": "Property type"
+    },
+    "plugins.bases.label-hide-property": {
+      "old": "Hide property",
+      "new": "隐藏属性",
+      "english": "Hide property"
+    },
+    "plugins.bases.label-show-property": {
+      "old": "Show property",
+      "new": "显示属性",
+      "english": "Show property"
+    },
+    "plugins.bases.label-edit-property": {
+      "old": "Edit property",
+      "new": "编辑属性",
+      "english": "Edit property"
+    },
+    "plugins.bases.label-configure-view": {
+      "old": "Configure view",
+      "new": "配置视图",
+      "english": "Configure view"
+    },
+    "plugins.bases.label-view-layout": {
+      "old": "Layout",
+      "new": "布局",
+      "english": "Layout"
+    },
+    "plugins.bases.label-global-filters": {
+      "old": "Global filters",
+      "new": "全局筛选器",
+      "english": "Global filters"
+    },
+    "plugins.bases.label-view-filters": {
+      "old": "View filters",
+      "new": "视图筛选器",
+      "english": "View filters"
+    },
+    "plugins.bases.label-view-name": {
+      "old": "View name",
+      "new": "视图名称",
+      "english": "View name"
+    },
+    "plugins.bases.label-default-view": {
+      "old": "View",
+      "new": "视图",
+      "english": "View"
+    },
+    "plugins.bases.label-view-type-table": {
+      "old": "Table",
+      "new": "表格",
+      "english": "Table"
+    },
+    "plugins.bases.label-formula": {
+      "old": "Formula",
+      "new": "公式",
+      "english": "Formula"
+    },
+    "plugins.bases.label-any-of-the-following": {
+      "old": "Any of the following are true",
+      "new": "满足以下任意条件",
+      "english": "Any of the following are true"
+    },
+    "plugins.bases.label-all-the-following": {
+      "old": "All the following are true",
+      "new": "满足以下所有条件",
+      "english": "All the following are true"
+    },
+    "plugins.bases.label-none-of-the-following": {
+      "old": "None of the following are true",
+      "new": "不满足以下任何条件",
+      "english": "None of the following are true"
+    },
+    "plugins.bases.label-where": {
+      "old": "where",
+      "new": "条件",
+      "english": "where"
+    },
+    "plugins.bases.label-or": {
+      "old": "or",
+      "new": "或",
+      "english": "or"
+    },
+    "plugins.bases.label-and": {
+      "old": "and",
+      "new": "且",
+      "english": "and"
+    },
+    "plugins.bases.label-property-key": {
+      "old": "Property",
+      "new": "属性",
+      "english": "Property"
+    },
+    "plugins.bases.label-untitled-property": {
+      "old": "Untitled",
+      "new": "未命名",
+      "english": "Untitled"
+    },
+    "plugins.bases.label-file-prop-file": {
+      "old": "file",
+      "new": "文件",
+      "english": "file"
+    },
+    "plugins.bases.label-file-prop-name": {
+      "old": "name",
+      "new": "名称",
+      "english": "name"
+    },
+    "plugins.bases.label-file-prop-path": {
+      "old": "path",
+      "new": "路径",
+      "english": "path"
+    },
+    "plugins.bases.label-file-prop-folder": {
+      "old": "folder",
+      "new": "文件夹",
+      "english": "folder"
+    },
+    "plugins.bases.label-file-prop-ext": {
+      "old": "extension",
+      "new": "扩展名",
+      "english": "extension"
+    },
+    "plugins.bases.label-file-prop-ctime": {
+      "old": "created time",
+      "new": "创建时间",
+      "english": "created time"
+    },
+    "plugins.bases.label-file-prop-mtime": {
+      "old": "modified time",
+      "new": "修改时间",
+      "english": "modified time"
+    },
+    "plugins.bases.label-file-prop-size": {
+      "old": "file size",
+      "new": "文件大小",
+      "english": "file size"
+    },
+    "plugins.bases.msg-filter-simple-unavailable": {
+      "old": "This filter cannot be represented by the simple filter builder.",
+      "new": "此筛选器无法用简单模式表示",
+      "english": "This filter cannot be represented by the simple filter builder."
+    },
+    "plugins.bases.msg-filter-cannot-parse": {
+      "old": "Filter cannot be parsed. Basic filter builder cannot be used.",
+      "new": "无法解析筛选器，无法使用基础筛选器构建器",
+      "english": "Filter cannot be parsed. Basic filter builder cannot be used."
+    },
+    "plugins.bases.msg-error-register-view": {
+      "old": "Unable to add new Bases view \"{{ viewID }}\". A view with this ID already exists.",
+      "new": "无法添加新数据基视图\"{{viewID}}\"，该ID视图已存在",
+      "english": "Unable to add new Bases view \"{{ viewID }}\". A view with this ID already exists."
+    },
+    "plugins.bases.msg-error-unable-to-parse": {
+      "old": "Unable to parse your base file:",
+      "new": "无法解析数据基文件：",
+      "english": "Unable to parse your base file:"
+    },
+    "plugins.bases.msg-error-view-not-found": {
+      "old": "View \"{{ view }}\" not found",
+      "new": "未找到视图\"{{view}}\"",
+      "english": "View \"{{ view }}\" not found"
+    },
+    "plugins.bases.msg-error-unknown-view-type": {
+      "old": "Base configured with an unknown view type: {{ viewtype }}",
+      "new": "数据基配置了未知视图类型：{{viewtype}}",
+      "english": "Base configured with an unknown view type: {{ viewtype }}"
+    },
+    "plugins.bases.msg-error-view-type": {
+      "old": "Views must be an array",
+      "new": "视图必须是数组",
+      "english": "Views must be an array"
+    },
+    "plugins.bases.msg-error-display-values": {
+      "old": "Display values must be strings. Value for property {{ key }} is not.",
+      "new": "显示值必须是字符串。属性{{key}}的值不是",
+      "english": "Display values must be strings. Value for property {{ key }} is not."
+    },
+    "plugins.bases.msg-error-must-be-a-type": {
+      "old": "\"{{ key }}\" must be a {{ type }}",
+      "new": "\"{{key}}\"必须是{{type}}类型",
+      "english": "\"{{ key }}\" must be a {{ type }}"
+    },
+    "plugins.bases.msg-error-filter-type": {
+      "old": "\"filters\" must be a string or an object",
+      "new": "\"filters\"必须是字符串或对象",
+      "english": "\"filters\" must be a string or an object"
+    },
+    "plugins.bases.msg-error-filter-must-be-array": {
+      "old": "\"{{ conjunction }}\" filter must be an array",
+      "new": "\"{{conjunction}}\"筛选器必须是数组",
+      "english": "\"{{ conjunction }}\" filter must be an array"
+    },
+    "plugins.bases.msg-error-filter-allowed-keys": {
+      "old": "\"filters\" may only have one of an \"and\", \"or\", or \"not\" keys.",
+      "new": "\"filters\"只能包含\"and\"、\"or\"或\"not\"键",
+      "english": "\"filters\" may only have one of an \"and\", \"or\", or \"not\" keys."
+    },
+    "plugins.bases.msg-error-filter-parsing": {
+      "old": "Failed to parse filter \"{{ filter }}\"",
+      "new": "解析筛选器\"{{filter}}\"失败",
+      "english": "Failed to parse filter \"{{ filter }}\""
+    },
+    "plugins.bases.msg-error-filter-failed-to-evaluate": {
+      "old": "Failed to evaluate a filter: {{ message }}",
+      "new": "筛选器评估失败：{{message}}",
+      "english": "Failed to evaluate a filter: {{ message }}"
+    },
+    "plugins.bases.msg-error-formula-values": {
+      "old": "Formula values must be strings. Value for property {{ key }} is not.",
+      "new": "公式值必须是字符串。属性{{key}}的值不是",
+      "english": "Formula values must be strings. Value for property {{ key }} is not."
+    },
+    "plugins.bases.msg-error-computed-failed-to-compute": {
+      "old": "Failed to compute value of property \"{{ key }}\": {{ message }}",
+      "new": "计算属性\"{{key}}\"值失败：{{message}}",
+      "english": "Failed to compute value of property \"{{ key }}\": {{ message }}"
+    },
+    "plugins.bases.msg-error-invalid-query-format": {
+      "old": "Query is an invalid format. It should be a YAML object.",
+      "new": "查询格式无效，应为YAML对象",
+      "english": "Query is an invalid format. It should be a YAML object."
+    },
+    "plugins.bases.msg-error-view-invalid-format": {
+      "old": "\"view\" items must be a YAML object, however item {{ index }} is not",
+      "new": "\"view\"项必须是YAML对象，但第{{index}}项不是",
+      "english": "\"view\" items must be a YAML object, however item {{ index }} is not"
+    },
+    "plugins.bases.msg-error-view-name-invalid": {
+      "old": "Missing or invalid \"name\" in view {{ index }}",
+      "new": "视图{{index}}缺少或无效的\"name\"",
+      "english": "Missing or invalid \"name\" in view {{ index }}"
+    },
+    "plugins.bases.msg-error-view-missing-required-key": {
+      "old": "\"{{ key }}\" is required in view \"{{ viewName }}\"",
+      "new": "视图\"{{viewName}}\"中必须包含\"{{key}}\"",
+      "english": "\"{{ key }}\" is required in view \"{{ viewName }}\""
+    },
+    "plugins.bases.msg-error-view-incorrect-type": {
+      "old": "\"{{ key }}\" must be a {{ type }} in view \"{{ viewName }}\"",
+      "new": "视图\"{{viewName}}\"中的\"{{key}}\"必须是{{type}}类型",
+      "english": "\"{{ key }}\" must be a {{ type }} in view \"{{ viewName }}\""
+    },
+    "plugins.bases.msg-error-view-incorrect-value-type": {
+      "old": "\"{{ key }}\" values must all be of type {{ type }} in view \"{{ viewName }}\"",
+      "new": "视图\"{{viewName}}\"中的\"{{key}}\"值必须都是{{type}}类型",
+      "english": "\"{{ key }}\" values must all be of type {{ type }} in view \"{{ viewName }}\""
+    },
+    "plugins.bases.msg-error-view-parsing-filters": {
+      "old": "Unable to parse filters in view \"{{ viewName }}\": {{ message }}",
+      "new": "无法解析视图\"{{viewName}}\"中的筛选器：{{message}}",
+      "english": "Unable to parse filters in view \"{{ viewName }}\": {{ message }}"
+    },
+    "plugins.bases.msg-error-invalid-array-access": {
+      "old": "Cannot access index {{ index }} of non-array value",
+      "new": "无法访问非数组值的索引{{index}}",
+      "english": "Cannot access index {{ index }} of non-array value"
+    },
+    "plugins.bases.msg-error-invalid-function": {
+      "old": "Cannot find function {{ function }}",
+      "new": "找不到函数{{function}}",
+      "english": "Cannot find function {{ function }}"
+    },
+    "plugins.bases.msg-error-infinite-loop": {
+      "old": "Infinite loop detected in formula",
+      "new": "检测到公式中存在无限循环",
+      "english": "Infinite loop detected in formula"
+    },
+    "plugins.bases.tooltip-filter-advanced-mode": {
+      "old": "Advanced filter",
+      "new": "高级筛选",
+      "english": "Advanced filter"
+    },
+    "plugins.bases.tooltip-filter-simple-mode": {
+      "old": "Simple filter",
+      "new": "简单筛选",
+      "english": "Simple filter"
+    },
+    "plugins.bases.tooltip-remove-filter": {
+      "old": "Remove filter",
+      "new": "移除筛选器",
+      "english": "Remove filter"
+    },
+    "plugins.bases.table.action-hide-column": {
+      "old": "Hide column",
+      "new": "隐藏列",
+      "english": "Hide column"
+    },
+    "plugins.bases.table.action-rename-column": {
+      "old": "Rename column...",
+      "new": "重命名列...",
+      "english": "Rename column..."
+    },
+    "plugins.bases.table.label-export-c-s-v": {
+      "old": "Export CSV...",
+      "new": "导出CSV...",
+      "english": "Export CSV..."
+    },
+    "plugins.bases.table.label-limit": {
+      "old": "Number of results",
+      "new": "结果数量",
+      "english": "Number of results"
+    },
+    "pdf.annotation_date_string": {
+      "old": "{{date}}, {{time}}",
+      "new": "{{date}} {{time}}",
+      "english": "{{date}}, {{time}}"
+    },
+    "properties.types.option-folder": {
+      "old": "Folder",
+      "new": "文件夹",
+      "english": "Folder"
+    },
+    "properties.types.option-file": {
+      "old": "File",
+      "new": "文件",
+      "english": "File"
+    },
+    "properties.label-invalid-heading": {
+      "old": "Invalid properties",
+      "new": "无效属性",
+      "english": "Invalid properties"
+    },
+    "properties.label-show-source": {
+      "old": "Show source",
+      "new": "显示源代码",
+      "english": "Show source"
+    },
+    "properties.label-type-mismatch-warning-generic": {
+      "old": "Type mismatch",
+      "new": "类型不匹配",
+      "english": "Type mismatch"
+    },
+    "callout.type.none": {
+      "old": "None",
+      "new": "无",
+      "english": "None"
+    },
+    "nouns.plugin-active-with-count": {
+      "old": "{{count}} active",
+      "new": "{{count}}个启用",
+      "english": "{{count}} active"
+    },
+    "nouns.snippet-active-with-count": {
+      "old": "{{count}} snippet",
+      "new": "{{count}}个片段",
+      "english": "{{count}} snippet"
+    },
+    "nouns.snippet-active-with-count_plural": {
+      "old": "{{count}} snippets",
+      "new": "{{count}}个片段",
+      "english": "{{count}} snippets"
+    }
+  },
+  "removed_translations": {},
+  "total_old": 2323,
+  "total_new": 2323,
+  "summary": {
+    "new_count": 0,
+    "updated_count": 223,
+    "removed_count": 0,
+    "total_changes": 223
+  }
+}

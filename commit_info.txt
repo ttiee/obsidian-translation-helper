@@ -1,0 +1,57 @@
+# Git Commit 信息
+
+生成时间: 2025-07-29 23:27:13
+
+## Commit 信息
+
+```
+update zh.json: update 223 translations
+
+Translation update summary:
+- New translations: 0
+- Updated translations: 223
+- Total changes: 223
+
+Key updated translations:
+- setting.file.option-new-attachment-location-default: attachments -> 附件
+- setting.account.label-insider: Insider -> 内测用户
+- ... and 221 more
+
+All translations have been reviewed and verified.
+```
+
+## Git 命令
+
+```bash
+git add zh_translated.json
+```
+
+```bash
+git commit -m "update zh.json: update 223 translations" -m "Translation update summary:
+- New translations: 0
+- Updated translations: 223
+- Total changes: 223
+
+Key updated translations:
+- setting.file.option-new-attachment-location-default: attachments -> 附件
+- setting.account.label-insider: Insider -> 内测用户
+- ... and 221 more
+
+All translations have been reviewed and verified."
+```
+
+## 一键执行
+
+```bash
+git add zh_translated.json && git commit -m "update zh.json: update 223 translations" -m "Translation update summary:
+- New translations: 0
+- Updated translations: 223
+- Total changes: 223
+
+Key updated translations:
+- setting.file.option-new-attachment-location-default: attachments -> 附件
+- setting.account.label-insider: Insider -> 内测用户
+- ... and 221 more
+
+All translations have been reviewed and verified."
+```
