@@ -1,4 +1,4 @@
-# Obsidian 翻译辅助工具
+# Obsidian Translation Helper (Obsidian 翻译辅助工具)
 
 本项目包含一系列 Python 脚本，旨在简化为 [Obsidian](https://obsidian.md/) 进行中文翻译的流程。这些工具可以帮助您：
 
