@@ -30,7 +30,7 @@
 
 ### 2. 分析翻译状态
 
-运行分析脚本，了解当前的翻译情况。
+运行 `translate.py` 脚本，全面了解当前的翻译情况。这是推荐的开始方式。
 
 ```bash
 python translate.py
@@ -41,32 +41,32 @@ python translate.py
 2.  在控制台输出详细的统计摘要。
 3.  生成以下文件：
     -   `translation_report.json`：完整的分析报告。
-    -   `untranslated_entries.json`：**真正未翻译**的条目，格式为 `{"路径": "英文原文"}`。
-    -   `potentially_translated_entries.json`：**可能已翻译**的条目，包含翻译建议。
+    -   `untranslated_entries.json`：所有未翻译（或与英文原文相同）的条目，格式为 `{"路径": "英文原文"}`。**这是您需要翻译的主要文件**。
+    -   `potentially_translated_entries.json`：**可能已翻译**的条目，包含翻译建议，可作为翻译时的参考。
 
 ### 3. 进行翻译
 
-1.  **创建翻译文件**：复制 `untranslated_entries.json` 并重命名为 `translated_entries.json`。
+1.  **创建翻译文件**：复制 `untranslated_entries.json` 并重命名为 `translated_entries.json`。这是您的工作文件。
 2.  **翻译内容**：打开 `translated_entries.json`，将文件中的英文值（value）替换为中文翻译。
-
-    **示例**：
-    *   翻译前 (`untranslated_entries.json`):
-        ```json
-        {
-          "command.go-to-next-tab.name": "Go to next tab"
-        }
-        ```
-    *   翻译后 (`translated_entries.json`):
-        ```json
-        {
-          "command.go-to-next-tab.name": "切换到下一个标签页"
-        }
-        ```
-3.  **(可选) 参考建议**：打开 `potentially_translated_entries.json` 查看并利用其中的翻译建议，手动将它们添加到 `translated_entries.json` 中。
+    -   **示例**：
+        *   翻译前 (`untranslated_entries.json`):
+            ```json
+            {
+              "command.go-to-next-tab.name": "Go to next tab"
+            }
+            ```
+        *   翻译后 (`translated_entries.json`):
+            ```json
+            {
+              "command.go-to-next-tab.name": "切换到下一个标签页"
+            }
+            ```
+3.  **(可选) 参考建议**：打开 `potentially_translated_entries.json` 查看并利用其中的翻译建议。如果建议合适，可以将其复制到您的 `translated_entries.json` 文件中，以确保翻译的一致性。
+4.  **保存工作**：完成翻译后，请确保已保存 `translated_entries.json` 文件。
 
 ### 4. 合并翻译
 
-当 `translated_entries.json` 文件准备好后，运行合并脚本。
+当 `translated_entries.json` 文件准备好后，运行合并脚本 `pre.py`。
 
 ```bash
 python pre.py
@@ -76,6 +76,8 @@ python pre.py
 1.  读取 `zh.json` (原始中文文件) 和 `translated_entries.json` (你的翻译)。
 2.  将你的翻译合并到原始数据中。
 3.  生成最终的翻译文件 `zh_translated.json`。
+
+> **注意**：`pre.py` 脚本自身也能从 `zh.json` 提取未翻译条目。但我们推荐使用 `translate.py` 进行分析，因为它提供了更丰富的信息（如与 `en.json` 对比和翻译建议）。
 
 ### 5. 生成 PR 和 Commit 信息
 
@@ -108,14 +110,16 @@ python generate_pr_message.py
     -   `translation_report.json`
     -   `untranslated_entries.json`
     -   `potentially_translated_entries.json`
--   **用途**：翻译工作的第一步，用于评估工作量和获取待翻译列表。
+-   **用途**：翻译工作的第一步，用于评估工作量、获取待翻译列表和翻译建议。
 
 ### `pre.py`
 
-**核心功能**：合并翻译。
--   **输入**：`zh.json`, `translated_entries.json`
--   **输出**：`zh_translated.json`
--   **用途**：将分散的翻译条目整合回完整的 JSON 文件结构中。
+**核心功能**：提取未翻译条目与合并翻译。
+-   **输入**：`zh.json`, `translated_entries.json` (可选)
+-   **输出**：`untranslated_entries.json`, `zh_translated.json` (如果输入了翻译文件)
+-   **用途**：
+    1.  **提取**：可以快速从 `zh.json` 中找出未翻译（与键名或原文相同）的条目。
+    2.  **合并**：将 `translated_entries.json` 中的翻译内容安全地合并回完整的 JSON 文件结构中，生成最终的 `zh_translated.json`。
 
 ### `generate_pr_message.py`
 
