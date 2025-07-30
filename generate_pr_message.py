@@ -346,12 +346,12 @@ def main():
     print("=== PR 提交信息生成器 ===")
     
     # 文件路径配置
-    old_zh_file = "zh.json"  # 原始中文文件
-    new_zh_file = "zh_translated.json"  # 翻译后的文件
-    en_file = "en.json"  # 英文参考文件
-    output_file = "pr_message.md"
-    changes_file = "translation_changes.json"
-    commit_file = "commit_info.txt"
+    old_zh_file = "input/zh.json"  # 原始中文文件
+    new_zh_file = "output/zh_translated.json"  # 翻译后的文件
+    en_file = "input/en.json"  # 英文参考文件
+    output_file = "output/pr_message.md"
+    changes_file = "output/translation_changes.json"
+    commit_file = "output/commit_info.txt"
     
     # 检查文件存在性
     if not os.path.exists(old_zh_file):

@@ -178,22 +178,28 @@ def save_potentially_translated_entries(potentially_translated: Dict[str, Any], 
 
 def main():
     """主函数"""
-    print("=== Obsidian 翻译状态分析工具 ===")
+    print("=== Obsidian 翻译状态分析与准备工具 ===")
     
     # 文件路径
-    en_file = "en.json"
-    zh_file = "zh.json"
-    output_file = "untranslated_entries.json"
-    report_file = "translation_report.json"
-    potentially_file = "potentially_translated_entries.json"
+    en_file = "input/en.json"
+    zh_file = "input/zh.json"
+    
+    # 创建输出目录
+    output_dir = "output_analyze"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # 输出文件路径
+    report_file = os.path.join(output_dir, "translation_report.json")
+    untranslated_file = os.path.join(output_dir, "untranslated_entries.json")
+    potentially_file = os.path.join(output_dir, "potentially_translated_entries.json")
     
     # 检查文件是否存在
     if not os.path.exists(en_file):
-        print(f"错误: 找不到英文文件 {en_file}")
+        print(f"❌ 错误: 找不到英文文件 {en_file}")
         return
     
     if not os.path.exists(zh_file):
-        print(f"错误: 找不到中文文件 {zh_file}")
+        print(f"❌ 错误: 找不到中文文件 {zh_file}")
         return
     
     # 分析翻译状态
@@ -205,60 +211,32 @@ def main():
     
     # 输出统计信息
     summary = result["summary"]
-    print("\n=== 翻译统计 ===")
-    print(f"总配置项数: {summary['total_items']}")
-    print(f"已翻译数量: {summary['translated_count']}")
-    print(f"未翻译数量: {summary['untranslated_count']}")
-    print(f"  - 可能已翻译过的: {summary['potentially_translated_count']}")
-    print(f"  - 真的没翻译的: {summary['truly_untranslated_count']}")
-    print(f"翻译完成率: {summary['translation_rate']}")
-    print(f"潜在完成率: {summary['potential_rate']}")
+    print("\n📊 翻译统计摘要:")
+    print(f"  - 总条目: {summary['total_items']}")
+    print(f"  - 已翻译: {summary['translated_count']} ({summary['translation_rate']})")
+    print(f"  - 未翻译: {summary['untranslated_count']}")
+    print(f"    - 纯未翻译: {summary['truly_untranslated_count']}")
+    print(f"    - 可能已翻译: {summary['potentially_translated_count']}")
     
     # 保存完整报告
-    print(f"\n正在保存完整报告到: {report_file}")
+    print(f"\n💾 正在保存完整报告到: {report_file}")
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     
     # 保存未翻译条目
-    print(f"正在保存未翻译条目到: {output_file}")
-    save_untranslated_entries(result["untranslated"], output_file)
+    print(f"💾 正在保存【所有未翻译】条目到: {untranslated_file}")
+    save_untranslated_entries(result["untranslated"], untranslated_file)
     
     # 保存可能已翻译的条目
-    print(f"正在保存可能已翻译的条目到: {potentially_file}")
+    print(f"💾 正在保存【可能已翻译】的条目到: {potentially_file}")
     save_potentially_translated_entries(result["potentially_translated"], potentially_file)
     
-    # 显示可能已翻译的例子
-    print("\n=== 可能已翻译过的条目示例 ===")
-    potentially_items = list(result["potentially_translated"].items())
-    for i, (path, info) in enumerate(potentially_items[:10]):
-        suggested = info["suggested_translation"]
-        print(f"{i+1}. {path}")
-        print(f"   英文: {info['english']}")
-        print(f"   建议翻译: {suggested}")
-        if len(info["existing_translations"]) > 1:
-            other_translations = [t for t in info["existing_translations"] if t != suggested]
-            print(f"   其他翻译: {', '.join(other_translations)}")
-    
-    if len(potentially_items) > 10:
-        print(f"... 还有 {len(potentially_items) - 10} 个可能已翻译的条目")
-    
-    # 显示真的未翻译的例子
-    print("\n=== 真的没翻译的条目示例 ===")
-    truly_untranslated_items = list(result["truly_untranslated"].items())
-    for i, (path, info) in enumerate(truly_untranslated_items[:10]):
-        status = "缺失" if info["status"] == "missing" else "与英文相同"
-        print(f"{i+1}. {path} -> {info['english']} ({status})")
-    
-    if len(truly_untranslated_items) > 10:
-        print(f"... 还有 {len(truly_untranslated_items) - 10} 个真的没翻译条目")
-    
-    print(f"\n分析完成！")
-    print(f"- 查看 {output_file} 获取所有未翻译条目")
-    print(f"- 查看 {potentially_file} 获取可能已翻译的条目")
-    print(f"- 查看 {report_file} 获取完整分析报告")
+    print(f"\n✅ 分析完成！")
     print(f"\n📝 下一步操作:")
-    print(f"1. 翻译完成后运行 pre.py 合并翻译")
-    print(f"2. 运行 generate_pr_message.py 生成PR和Commit信息")
+    print(f"1. 在 '{output_dir}/' 目录下找到 untranslated_entries.json 和 potentially_translated_entries.json。")
+    print(f"2. 对这些文件中的英文值进行翻译。")
+    print(f"3. 将所有翻译好的键值对合并到一个文件中，并将其命名为 'manual_translations.json' 放入 'input/' 目录。")
+    print(f"4. 运行 'python merge_translations.py' 来合并您的翻译。")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,6 @@
 import json
 import copy
+import os
 
 def find_untranslated(obj, path=""):
     untranslated = {}
@@ -83,45 +84,53 @@ def merge_translations(original_data, translations):
     
     return result
 
-# 读取原始文件
-with open("zh.json", "r", encoding="utf-8") as f:
-    original_data = json.load(f)
 
-# 提取未翻译条目
-untranslated_entries = find_untranslated(original_data)
+def main():
+    """主函数：将手动翻译的文件合并到中文语言文件中。"""
+    print("=== 开始合并翻译文件 ===")
 
-# 保存原始数据结构（用于后续合并）
-with open("original_structure.json", "w", encoding="utf-8") as f:
-    json.dump(original_data, f, ensure_ascii=False, indent=2)
+    # 定义文件路径
+    original_zh_file = "input/zh.json"
+    manual_translations_file = "input/manual_translations.json"
+    output_dir = "output"
+    merged_file = os.path.join(output_dir, "zh_translated.json")
 
-# 输出待翻译文件
-with open("untranslated_entries.json", "w", encoding="utf-8") as f:
-    json.dump(untranslated_entries, f, ensure_ascii=False, indent=2)
+    # 确保输出目录存在
+    os.makedirs(output_dir, exist_ok=True)
 
-print(f"✅ 提取完成，找到 {len(untranslated_entries)} 个待翻译条目")
-print("📁 已保存文件:")
-print("  - untranslated_entries.json (待翻译)")
-print("  - original_structure.json (原始结构)")
-print("\n📝 翻译步骤:")
-print("1. 翻译 untranslated_entries.json 中的内容")
-print("2. 将翻译结果保存为 translated_entries.json")
-print("3. 运行合并脚本生成最终文件")
-print("4. 运行 generate_pr_message.py 生成PR提交信息")
+    # 检查所需文件是否存在
+    if not os.path.exists(original_zh_file):
+        print(f"❌ 错误: 找不到原始中文文件 {original_zh_file}")
+        return
 
-# 如果存在翻译文件，自动合并
-try:
-    with open("translated_entries.json", "r", encoding="utf-8") as f:
+    if not os.path.exists(manual_translations_file):
+        print(f"❌ 错误: 找不到手动翻译文件 {manual_translations_file}")
+        print(f"💡 提示: 请先运行 'python analyze_translations.py' 生成待翻译文件，")
+        print(f"   完成后将其重命名为 {manual_translations_file} 并放入 input/ 目录。")
+        return
+
+    # 读取原始中文数据
+    print(f"📖 正在读取原始文件: {original_zh_file}")
+    with open(original_zh_file, "r", encoding="utf-8") as f:
+        original_data = json.load(f)
+
+    # 读取手动翻译的数据
+    print(f"📖 正在读取翻译文件: {manual_translations_file}")
+    with open(manual_translations_file, "r", encoding="utf-8") as f:
         translated_entries = json.load(f)
-    
-    # 合并翻译结果
+
+    # 合并翻译
+    print("🔄 正在合并翻译...")
     final_data = merge_translations(original_data, translated_entries)
-    
+
     # 保存最终结果
-    with open("zh_translated.json", "w", encoding="utf-8") as f:
+    print(f"💾 正在保存合并后的文件到: {merged_file}")
+    with open(merged_file, "w", encoding="utf-8") as f:
         json.dump(final_data, f, ensure_ascii=False, indent="\t")
-    
-    print("\n🎉 发现翻译文件，已自动合并为 zh_translated.json")
-    print("\n💡 提示: 运行 'python generate_pr_message.py' 生成PR提交信息")
-    
-except FileNotFoundError:
-    print("\n💡 翻译完成后，请将结果保存为 translated_entries.json，然后重新运行此脚本进行合并")
+
+    print(f"\n🎉 合并完成！最终文件已保存为 {merged_file}")
+    print("\n💡 下一步: 运行 'python generate_pr_message.py' 生成PR和Commit信息。")
+
+
+if __name__ == "__main__":
+    main()

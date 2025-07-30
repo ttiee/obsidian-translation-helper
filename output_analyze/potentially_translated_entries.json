@@ -1,10 +1,10 @@
 {
   "interface.start-screen.mobile.label-none": {
     "english": "None",
-    "suggested_translation": "无",
+    "suggested_translation": "没有快捷命令",
     "all_existing_translations": [
-      "无",
-      "没有快捷命令"
+      "没有快捷命令",
+      "无"
     ]
   },
   "interface.start-screen.mobile.option-encryption-custom": {
@@ -44,10 +44,10 @@
   },
   "interface.start-screen.mobile.label-vault-name": {
     "english": "Vault name",
-    "suggested_translation": "仓库名称",
+    "suggested_translation": "远程仓库名称",
     "all_existing_translations": [
-      "仓库名称",
-      "远程仓库名称"
+      "远程仓库名称",
+      "仓库名称"
     ]
   },
   "interface.start-screen.mobile.label-region-selection": {
@@ -122,10 +122,10 @@
   },
   "callout.type.none": {
     "english": "None",
-    "suggested_translation": "无",
+    "suggested_translation": "没有快捷命令",
     "all_existing_translations": [
-      "无",
-      "没有快捷命令"
+      "没有快捷命令",
+      "无"
     ]
   }
 }

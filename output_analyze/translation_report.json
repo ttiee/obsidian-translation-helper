@@ -9309,10 +9309,10 @@
       "english": "None",
       "status": "same_as_english",
       "existing_translations": [
-        "无",
-        "没有快捷命令"
+        "没有快捷命令",
+        "无"
       ],
-      "suggested_translation": "无"
+      "suggested_translation": "没有快捷命令"
     },
     "interface.start-screen.mobile.option-encryption-custom": {
       "english": "End-to-end encryption",
@@ -9358,10 +9358,10 @@
       "english": "Vault name",
       "status": "same_as_english",
       "existing_translations": [
-        "仓库名称",
-        "远程仓库名称"
+        "远程仓库名称",
+        "仓库名称"
       ],
-      "suggested_translation": "仓库名称"
+      "suggested_translation": "远程仓库名称"
     },
     "interface.start-screen.mobile.label-region-selection": {
       "english": "Region",
@@ -9447,10 +9447,10 @@
       "english": "None",
       "status": "same_as_english",
       "existing_translations": [
-        "无",
-        "没有快捷命令"
+        "没有快捷命令",
+        "无"
       ],
-      "suggested_translation": "无"
+      "suggested_translation": "没有快捷命令"
     }
   },
   "truly_untranslated": {
@@ -10430,12 +10430,12 @@
       "设置新标签页的默认视图模式。"
     ],
     "Editing view": [
-      "编辑视图",
-      "编辑模式"
+      "编辑模式",
+      "编辑视图"
     ],
     "Reading view": [
-      "预览模式",
-      "阅读视图"
+      "阅读视图",
+      "预览模式"
     ],
     "Always focus new tabs": [
       "始终聚焦新标签页"
@@ -10453,8 +10453,8 @@
       "源码模式"
     ],
     "Live Preview": [
-      "实时预览",
-      "实时阅览"
+      "实时阅览",
+      "实时预览"
     ],
     "Show line numbers": [
       "显示行号"
@@ -10547,8 +10547,8 @@
       "是否需要弹出提示窗口以确认删除文件。"
     ],
     "Deleted files": [
-      "已删除文件",
-      "删除文件设置"
+      "删除文件设置",
+      "已删除文件"
     ],
     "What happens to a file after you delete it.": [
       "要如何处理已删除的文件？"
@@ -10777,8 +10777,8 @@
       "管理"
     ],
     "None": [
-      "无",
-      "没有快捷命令"
+      "没有快捷命令",
+      "无"
     ],
     "Native menus": [
       "原生菜单"
@@ -10903,8 +10903,8 @@
       "有 {{count}} 个社区主题需要更新。"
     ],
     "Found {{count}} themes to update.": [
-      "有 {{count}} 个社区主题需要更新。",
-      "找到 {{count}} 可更新的主题"
+      "找到 {{count}} 可更新的主题",
+      "有 {{count}} 个社区主题需要更新。"
     ],
     "Check for updates": [
       "检查更新"
@@ -10943,8 +10943,8 @@
       "有 {{count}} 个冲突命令。"
     ],
     "Filter...": [
-      "筛选...",
-      "搜索……"
+      "搜索……",
+      "筛选..."
     ],
     "Delete hotkey": [
       "删除快捷键"
@@ -10981,8 +10981,8 @@
       "未设置"
     ],
     "General": [
-      "关于",
-      "常规"
+      "常规",
+      "关于"
     ],
     "Commercial license": [
       "商用许可证"
@@ -11000,8 +11000,8 @@
       "激活"
     ],
     "Unknown": [
-      "无标题",
-      "未知"
+      "未知",
+      "无标题"
     ],
     "Current version: ": [
       "当前版本: "
@@ -11098,8 +11098,8 @@
       "无效的许可证: "
     ],
     "Remove": [
-      "注销",
-      "移除"
+      "移除",
+      "注销"
     ],
     "Catalyst license": [
       "Catalyst 个人许可证"
@@ -11202,8 +11202,8 @@
       "输入插件名称或描述……"
     ],
     "Community plugins": [
-      "第三方插件",
-      "社区插件市场"
+      "社区插件市场",
+      "第三方插件"
     ],
     "Restricted mode": [
       "安全模式"
@@ -11619,12 +11619,12 @@
       "没有小标题"
     ],
     "Heading {{level}}": [
-      "小标题 {{level}}",
-      "{{level}}级标题"
+      "{{level}}级标题",
+      "小标题 {{level}}"
     ],
     "Export to PDF": [
-      "导出为 PDF",
-      "导出"
+      "导出",
+      "导出为 PDF"
     ],
     "Export “{{filename}}” to PDF with the settings below.": [
       "使用以下设置将 \"{{filename}}\" 导出为 PDF。"
@@ -11776,8 +11776,8 @@
       "如果你在使用 iOS 的 Lockdown Mode，请将 Obsidian 从 \"Configure Web Browsing\" 设置中排除。"
     ],
     "Enter to create": [
-      "创建该笔记",
-      "按下回车以创建"
+      "按下回车以创建",
+      "创建该笔记"
     ],
     "Update Available": [
       "可以更新"
@@ -11837,8 +11837,8 @@
       "加粗"
     ],
     "Code": [
-      "代码块",
-      "代码"
+      "代码",
+      "代码块"
     ],
     "Comment": [
       "注释"
@@ -11865,8 +11865,8 @@
       "有序列表"
     ],
     "Body": [
-      "无小标题",
-      "正文"
+      "正文",
+      "无小标题"
     ],
     "Clear formatting": [
       "清除格式"
@@ -11904,8 +11904,8 @@
       "该标签页处于阅读视图中"
     ],
     "Ribbon": [
-      "显示/隐藏功能区",
-      "功能区"
+      "功能区",
+      "显示/隐藏功能区"
     ],
     "Left sidebar": [
       "左侧边栏"
@@ -11977,8 +11977,8 @@
       "在新标签组中打开"
     ],
     "Copy URL": [
-      "复制链接",
-      "复制 URL"
+      "复制 URL",
+      "复制链接"
     ],
     "Cut": [
       "剪切"
@@ -11993,8 +11993,8 @@
       "查询 “{{selection}}”"
     ],
     "Select all": [
-      "全选",
       "全部选中",
+      "全选",
       "选中所有元素"
     ],
     "Rename this heading...": [
@@ -12047,8 +12047,8 @@
       "将一个本地文件夹作为仓库在 Obsidian 中打开。"
     ],
     "Create new vault": [
-      "新建仓库",
-      "新建远程仓库"
+      "新建远程仓库",
+      "新建仓库"
     ],
     "Create a new Obsidian vault under a folder.": [
       "在指定文件夹下创建一个新的仓库。"
@@ -12060,8 +12060,8 @@
       "将 Obsidian 同步服务中的远程仓库同步到本地。"
     ],
     "Vault name": [
-      "仓库名称",
-      "远程仓库名称"
+      "远程仓库名称",
+      "仓库名称"
     ],
     "Pick a name for your awesome vault.": [
       "给新仓库起一个名字"
@@ -12127,8 +12127,8 @@
       "快速开始"
     ],
     "Connect": [
-      "同步",
-      "连接"
+      "连接",
+      "同步"
     ],
     "Create": [
       "创建"
@@ -12225,8 +12225,8 @@
       "关闭"
     ],
     "Go back": [
-      "后退",
-      "返回"
+      "返回",
+      "后退"
     ],
     "Go forward": [
       "前进"
@@ -12671,8 +12671,8 @@
       "保存"
     ],
     "Stop": [
-      "暂停",
-      "停止"
+      "停止",
+      "暂停"
     ],
     "Continue": [
       "继续"
@@ -12744,8 +12744,8 @@
       "Markdown 链接"
     ],
     "Link": [
-      "转为链接",
-      "链接"
+      "链接",
+      "转为链接"
     ],
     "Export To PDF...": [
       "导出 PDF"
@@ -12905,8 +12905,8 @@
       "创建"
     ],
     "to dismiss": [
-      "退出",
-      "以取消"
+      "以取消",
+      "退出"
     ],
     "File name (A to Z)": [
       "文件名 (A-Z)"
@@ -13134,8 +13134,8 @@
       "了解更多"
     ],
     "History": [
-      "浏览历史",
-      "搜索历史"
+      "搜索历史",
+      "浏览历史"
     ],
     "Clear search history": [
       "清除搜索历史"
@@ -13201,8 +13201,8 @@
       "是否在快速切换中显示那些已赋予名称、但尚未建立的笔记。"
     ],
     "Show attachments": [
-      "显示附件",
-      "在图谱中显示附件以及与之相关的链接"
+      "在图谱中显示附件以及与之相关的链接",
+      "显示附件"
     ],
     "Show attachment files like images, videos, and PDFs.": [
       "在快速切换中显示如图片、视频、PDF 等附件文件。"
@@ -13250,8 +13250,8 @@
       "显示其他节点之间的链接"
     ],
     "Outgoing links": [
-      "出链",
-      "正向链接"
+      "正向链接",
+      "出链"
     ],
     "Show links to other files": [
       "显示图中每个节点的正向链接。"
@@ -13370,8 +13370,8 @@
       "没有笔记链接当前文件"
     ],
     "Unlinked mentions": [
-      "当前笔记中潜在的链接",
-      "提到当前文件名"
+      "提到当前文件名",
+      "当前笔记中潜在的链接"
     ],
     "Show search filter": [
       "筛选"
@@ -15166,8 +15166,8 @@
       "浏览、恢复快照。"
     ],
     "Clear history": [
-      "清空历史记录",
-      "删除快照"
+      "删除快照",
+      "清空历史记录"
     ],
     "Delete all snapshots.": [
       "删除所有快照。"
