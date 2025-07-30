@@ -346,12 +346,18 @@ def main():
     print("=== PR 提交信息生成器 ===")
     
     # 文件路径配置
-    old_zh_file = "input/zh.json"  # 原始中文文件
-    new_zh_file = "output/zh_translated.json"  # 翻译后的文件
-    en_file = "input/en.json"  # 英文参考文件
-    output_file = "output/pr_message.md"
-    changes_file = "output/translation_changes.json"
-    commit_file = "output/commit_info.txt"
+    input_dir = "input"
+    output_dir = "output"
+    old_zh_file = os.path.join(input_dir, "zh.json")  # 原始中文文件
+    new_zh_file = os.path.join(output_dir, "zh_translated.json")  # 翻译后的文件
+    en_file = os.path.join(input_dir, "en.json")  # 英文参考文件
+    
+    # 创建输出目录
+    os.makedirs(output_dir, exist_ok=True)
+
+    output_file = os.path.join(output_dir, "pr_message.md")
+    changes_file = os.path.join(output_dir, "translation_changes.json")
+    commit_file = os.path.join(output_dir, "commit_info.txt")
     
     # 检查文件存在性
     if not os.path.exists(old_zh_file):
@@ -383,7 +389,7 @@ def main():
     
     # 生成Commit信息
     commit_message = generate_commit_message(changes)
-    commit_commands = generate_commit_commands(commit_message, new_zh_file)
+    commit_commands = generate_commit_commands(commit_message, "zh.json")
     
     # 保存PR信息
     save_pr_message(title, body, output_file)
@@ -435,9 +441,9 @@ def main():
             print(f"- {category}: {len(paths)} 项")
     
     print(f"\n💡 提示:")
-    print(f"1. 复制 {output_file} 中的内容用于PR")
-    print(f"2. 使用 {commit_file} 中的命令提交代码")
-    print(f"3. 或直接执行一键命令完成提交")
+    print(f"1. 将 '{new_zh_file}' 重命名为 'zh.json' 并替换掉原始仓库中的文件。")
+    print(f"2. 复制 '{output_file}' 中的内容用于PR。")
+    print(f"3. 使用 '{commit_file}' 中的命令提交代码。")
 
 if __name__ == "__main__":
     main()

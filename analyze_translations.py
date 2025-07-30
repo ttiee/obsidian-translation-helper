@@ -181,11 +181,13 @@ def main():
     print("=== Obsidian 翻译状态分析与准备工具 ===")
     
     # 文件路径
-    en_file = "input/en.json"
-    zh_file = "input/zh.json"
+    input_dir = "input"
+    en_file = os.path.join(input_dir, "en.json")
+    zh_file = os.path.join(input_dir, "zh.json")
     
-    # 创建输出目录
+    # 创建输入和输出目录
     output_dir = "output_analyze"
+    os.makedirs(input_dir, exist_ok=True)
     os.makedirs(output_dir, exist_ok=True)
     
     # 输出文件路径
@@ -196,10 +198,12 @@ def main():
     # 检查文件是否存在
     if not os.path.exists(en_file):
         print(f"❌ 错误: 找不到英文文件 {en_file}")
+        print(f"💡 提示: 请将 en.json 文件放入 '{input_dir}/' 目录。")
         return
     
     if not os.path.exists(zh_file):
         print(f"❌ 错误: 找不到中文文件 {zh_file}")
+        print(f"💡 提示: 请将 zh.json 文件放入 '{input_dir}/' 目录。")
         return
     
     # 分析翻译状态
@@ -233,10 +237,11 @@ def main():
     
     print(f"\n✅ 分析完成！")
     print(f"\n📝 下一步操作:")
-    print(f"1. 在 '{output_dir}/' 目录下找到 untranslated_entries.json 和 potentially_translated_entries.json。")
-    print(f"2. 对这些文件中的英文值进行翻译。")
-    print(f"3. 将所有翻译好的键值对合并到一个文件中，并将其命名为 'manual_translations.json' 放入 'input/' 目录。")
-    print(f"4. 运行 'python merge_translations.py' 来合并您的翻译。")
+    print(f"1. 在 '{output_dir}/' 目录下找到 'untranslated_entries.json'。")
+    print(f"2. 将 'untranslated_entries.json' 复制到 '{input_dir}/' 目录并重命名为 'manual_translations.json'。")
+    print(f"3. 打开并编辑 '{os.path.join(input_dir, 'manual_translations.json')}' 文件，完成翻译。")
+    print(f"4. (可选) 参考 '{potentially_file}' 文件获取翻译建议。")
+    print(f"5. 运行 'python merge_translations.py' 来合并您的翻译。")
 
 if __name__ == "__main__":
     main()

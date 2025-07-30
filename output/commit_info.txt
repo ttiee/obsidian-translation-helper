@@ -1,6 +1,6 @@
 # Git Commit 信息
 
-生成时间: 2025-07-30 13:44:14
+生成时间: 2025-07-30 13:51:30
 
 ## Commit 信息
 
@@ -23,7 +23,7 @@ All translations have been reviewed and verified.
 ## Git 命令
 
 ```bash
-git add output/zh_translated.json
+git add zh.json
 ```
 
 ```bash
@@ -43,7 +43,7 @@ All translations have been reviewed and verified."
 ## 一键执行
 
 ```bash
-git add output/zh_translated.json && git commit -m "update zh.json: update 223 translations" -m "Translation update summary:
+git add zh.json && git commit -m "update zh.json: update 223 translations" -m "Translation update summary:
 - New translations: 0
 - Updated translations: 223
 - Total changes: 223

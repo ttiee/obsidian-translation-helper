@@ -90,12 +90,14 @@ def main():
     print("=== 开始合并翻译文件 ===")
 
     # 定义文件路径
-    original_zh_file = "input/zh.json"
-    manual_translations_file = "input/manual_translations.json"
+    input_dir = "input"
     output_dir = "output"
+    original_zh_file = os.path.join(input_dir, "zh.json")
+    manual_translations_file = os.path.join(input_dir, "manual_translations.json")
     merged_file = os.path.join(output_dir, "zh_translated.json")
 
-    # 确保输出目录存在
+    # 确保输入输出目录存在
+    os.makedirs(input_dir, exist_ok=True)
     os.makedirs(output_dir, exist_ok=True)
 
     # 检查所需文件是否存在
@@ -106,7 +108,7 @@ def main():
     if not os.path.exists(manual_translations_file):
         print(f"❌ 错误: 找不到手动翻译文件 {manual_translations_file}")
         print(f"💡 提示: 请先运行 'python analyze_translations.py' 生成待翻译文件，")
-        print(f"   完成后将其重命名为 {manual_translations_file} 并放入 input/ 目录。")
+        print(f"   完成后将其复制并重命名为 {manual_translations_file} 并放入 '{input_dir}/' 目录。")
         return
 
     # 读取原始中文数据
